@@ -31,7 +31,7 @@
   	
   	<property name="courses">
   		<map>
-  			 <entry key= "Java" value="4 months"/>
+  			 <entry key = "Java" value="4 months"/>
   			 <entry key= "Python" value="3 months"/>
   			 <entry key= "GoLang" value="2 months"/>
   		</map>

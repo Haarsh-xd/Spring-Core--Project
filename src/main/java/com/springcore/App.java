@@ -12,7 +12,7 @@ public class App
     public static void main( String[] args ){
     		
         System.out.println( "***P R O J E C T S T A R T E D*** :-)" );
-    ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
+    ApplicationContext context = new ClassPathXmlApplicationContext("/com/springcore/config.xml");
     Student student1 =(Student) context.getBean("student1");
     
     System.out.println(student1);
